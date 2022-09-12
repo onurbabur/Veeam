@@ -2,7 +2,7 @@
 Import-Module "C:\Program Files\Veeam\Backup365\Veeam.Archiver.PowerShell\Veeam.Archiver.PowerShell.psd1"
 
 #Organizasyon bilgisi girilir
-$org=Get-VBOOrganization -Name "ronesans.onmicrosoft.com"
+$org=Get-VBOOrganization -Name "xx.onmicrosoft.com"
 #Yedegi Alınacak kullanıcıların listesi a.b@mail.com olacak şekilde txt den import edilir.
 $usernames=Get-Content -Path C:\Temp\exportuser.txt
 
